@@ -30,8 +30,8 @@
 }
 
 .btn-primary{
-    background-color: #DD8365 !important;
-    border: #DD8365;
+    background-color: #be5d8e !important;
+    border: #be5d8e;
     border-radius: 0;
     padding: 12px 34px;
     font-size: 20px;
@@ -41,7 +41,7 @@
 
 #banner h6 {
     text-transform: uppercase;
-    color: #DDB365;
+    color:#be5d8e;
 }
 
 #banner h1 {
@@ -50,7 +50,7 @@
 
 #about {
     padding:100px;
-    background-color: #414828;
+    background-color: #6e063a;
     
 }
 
@@ -65,5 +65,78 @@
 }
 
 .card-img-top {
-    border: 2px solid #DD8365;
+    border: 2px solid #be5d8e;
+}
+
+.testimonials{
+    border: 3px solid #be5d8e;
+    padding:30px;
+    margin-top: 20px;
+
+}
+
+.testimonials img{
+    border-radius: 50%;
+    width: 75px;
+
+}
+
+#reviews{
+    background-color: #fafafa;
+    padding: 100px;
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius:  0 !important;
+
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+    
+}
+
+.accordion-body {
+    border-left: 3px solid rgb(57, 149, 57);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(57, 149, 57);
+    color: #FFF;
+}
+.accordion-button:hover {
+    background-color: rgb(57, 149, 57) ;
+    color: #FFF;
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #41482B;
+} 
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color: #DDB365 ;
 }
